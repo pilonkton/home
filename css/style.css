@@ -49,7 +49,7 @@ header {
 }
 /*ロゴ画像設定*/
 #logo img {
-	width: 350px;	/*画像幅*/
+	width: 400px;	/*画像幅*/
 	margin: 40px 0 40px 0;	/*ロゴの上と下に40pxスペースを空ける設定*/
 }
 
