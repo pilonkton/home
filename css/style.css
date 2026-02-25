@@ -167,6 +167,8 @@ footer {
 footer a {
 	text-decoration: none;
 	border: none;
+	  color: #000;              /* 常に黒 */
+  text-decoration: none;    /* 下線なし */
 }
 footer .pr {
 	display: block;
