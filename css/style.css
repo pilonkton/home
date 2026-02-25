@@ -107,7 +107,7 @@ header {
 	padding: 10px 20px;
 
 	border-radius: 0;      /* 角丸なし */
-
+	font-family:  "Droog", serif; /* 別フォント */
 }
 /*コンテンツのh3タグの設定*/
 #contents h3 {
