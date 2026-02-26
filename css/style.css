@@ -15,7 +15,9 @@ body {
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 1.5;		/*行間*/
 	background: #fff;	/*背景色*/
-}
+	.page-gallery.html {
+    background-color: #f0f0f0;
+}}
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
 ol {padding-left: 40px;padding-bottom: 15px;}
