@@ -391,9 +391,27 @@ body {
   font-size: 15px;
 }
 
+.link-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .link-list li {
-  border-left: 4px solid #262626;
-  padding: 12px 0 12px 15px;
-  margin: 15px 0;
-  background: #dccb18;
+  margin: 10px 0;
+}
+
+.link-list li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #dccb18;   /* 通常色 */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;      /* ← 完全な四角 */
+  transition: 0.3s;      /* ホバーを滑らかに */
+}
+
+/* ホバー時 */
+.link-list li a:hover {
+  background: #b8aa14;   /* 少し濃い色 */
 }
