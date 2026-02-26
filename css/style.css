@@ -24,6 +24,10 @@ img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
+img {
+	/* 保存禁止 */
+	pointer-events: none;
+}
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
 a {
