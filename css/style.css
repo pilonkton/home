@@ -377,28 +377,28 @@ body {
   font-size: 12px;
 }
 
-.link-list {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+/*リンクリスト*/
+
+.row {
+  display: flex;
+  align-items: center;
 }
 
-.link-list li {
-  margin: 10px 0;
+.symbol {
+  font-family: "Droog", serif; /* ← 記号のフォント */
+  font-size: 18px;
+  margin-right: 8px;
 }
 
-.link-list li a {
-  font-family: "Droog",
-               "Arial Black",
-               "Helvetica Neue",
-               Arial,
-               sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  color: #dccb18;        /* 通常色 */
-  text-decoration: none;
-  transition: 0.3s;
+.text {
+  margin-right: auto;
 }
+
+.link {
+  font-family: "Droog"; /* ← リンクのフォント */
+}
+
+
 
 a {
   overflow-wrap: break-word;
