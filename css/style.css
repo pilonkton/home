@@ -385,10 +385,10 @@ body {
 
 .bg-fixed {
   background-image: url("../images/f_background.png");
-  background-position: top; /* 左上基準 */
-  background-repeat: no-repeat;  
-  background-attachment: fixed;  /* スクロールしても固定 */
-　
+  background-position: center;       /* 中央配置 */
+  background-repeat: no-repeat;
+  background-size: cover;            /* 画面いっぱいに広げる */
+  background-attachment: fixed;
 }
 
 .small-text {
