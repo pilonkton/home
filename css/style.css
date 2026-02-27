@@ -244,11 +244,12 @@ footer {
 	clear: both;
 	text-align: center;	/*文字をセンタリング*/
 	padding: 30px 0px 10px;	/*上、左右、下へのボックス内の余白*/
+	color: #999999;   /* ← 通常テキスト */
 }
 footer a {
 	text-decoration: none;
 	border: none;
-	  color: #000000;              /* リンク色 */
+	color: #999999;   /* リンク色 */
   text-decoration: none;    /* 下線なし */
 }
 footer .pr {
@@ -256,7 +257,7 @@ footer .pr {
 }
 footer p.footer-note {
 	font-size: 12px;
-	color: #999;
+	color: #000;
 	line-height: 1.6;
 	margin-top: 20px;
 	text-align: left;
