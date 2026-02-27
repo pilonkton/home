@@ -184,28 +184,7 @@ header {
 
 /*Galleryページ
 ---------------------------------------------------------------------------*/
-/*各ブロックごとの設定*/
-.list {
-	overflow: hidden;
-	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
-	padding: 20px;	/*ボックス内の余白*/
-}
-/*h4見出しの設定*/
-.list h4 {
-	color: #3d2d21;	/*文字色*/
-}
-/*画像の設定*/
-.list img {
-	height: 20%;			/*画像幅*/
-	float: left;		/*画像を左に回り込み*/
-	margin-right: 3%	/*画像の右側に空けるスペース*/
-}
-/*段落タグ*/
-.list p {
-	padding: 0 !important;
-}
 
-/*ギャラリーーーーーーーーーーー*/
 
 /* ===== Section spacing ===== */
 .gallery-section,
@@ -327,18 +306,7 @@ footer p.footer-note {
 	width: 30%;			/*幅*/
 }
 
-/*トップページのNEWアイコン
----------------------------------------------------------------------------*/
-.newicon {
-	background: #F00;	/*背景色*/
-	color: #FFF;		/*文字色*/
-	font-size: 70%;
-	line-height: 1.5;
-	padding: 2px 5px;
-	border-radius: 2px;
-	margin: 0px 5px;
-	vertical-align: text-top;
-}
+
 
 /*その他
 ---------------------------------------------------------------------------*/
