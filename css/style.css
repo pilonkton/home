@@ -387,12 +387,9 @@ body {
 .symbol {
   font-family: "Droog", serif; /* ← 記号のフォント */
   font-size: 18px;
-  margin-right: 8px;
 }
 
-.text {
-  margin-right: auto;
-}
+
 
 .link {
   font-family: "Droog"; /* ← リンクのフォント */
