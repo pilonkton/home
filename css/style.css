@@ -188,14 +188,14 @@ header {
 	padding: 0 !important;
 }
 
+/*ギャラリーーーーーーーーーーー*/
 
-/* ===== Gallery Layout ===== */
 
-.gallery {
+.gallery-section,
+.full-image {
   padding: 80px 0;
-  margin: 0;
 }
-/* 共通コンテナ幅 */
+
 .container {
   max-width: 1000px;
   width: 90%;
@@ -203,41 +203,9 @@ header {
 }
 
 .gallery-grid {
-  max-width: 1000px;
-  width: 90%;
-  margin: 80 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* PCは3列 */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-}
-
-.gallery-grid img {
-  width: 100%;
-  aspect-ratio: 1 / 1;     /* 正方形 */
-  object-fit: cover;       /* 中央クロップ */
-  border-radius: 8px;
-}
-
-/* ===== Single wide image ===== */
-.full-image {
-  max-width: 1000px;  /* gallery-grid と同じ */
-  width: 90%;
-  padding: 80px 0;
-  margin: 0;
-}
-
-.full-image img {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
-}
-
-/* ===== Smartphone (2 columns) ===== */
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
 }
 
 
