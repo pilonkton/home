@@ -161,6 +161,16 @@ h1 {
              Meiryo,
              sans-serif;
 }
+
+
+
+h4 {
+  display: inline-block;
+  background-color: #f6f6f6;
+}
+
+
+
 /*コンテンツのp(段落)タグ設定*/
 #contents p {
 	padding: 0px 20px 20px;	/*上、左右、下への余白*/
