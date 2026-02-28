@@ -47,7 +47,7 @@ a:hover {
 /*コンテナー（ホームページを囲む一番外側のブロック）
 ---------------------------------------------------------------------------*/
 #container {
-	max-width: 800px;	/*ブロックの最大幅*/
+	max-width: 900px;	/*ブロックの最大幅*/
 	margin: 0 auto;
 	padding: 0 3%;
 }
@@ -200,34 +200,49 @@ h1 {
 /*Galleryページ
 ---------------------------------------------------------------------------*/
 
-.gallery {
+/* ===== Section spacing ===== */
+.gallery-section,
+.full-image {
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+/* ===== 共通コンテナ幅 ===== */
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ===== Grid ===== */
+.gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 20px;
 }
 
-.gallery figure {
-  margin: 0;
-  text-align: center;
-}
-
-.gallery img {
+.gallery-grid img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 6px;
-  transition: 0.3s;
+  border-radius: 8px;
 }
 
-.gallery img:hover {
-  opacity: 0.8;
+/* ===== Single Image ===== */
+.full-image img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
 }
 
-figcaption {
-  margin-top: 8px;
-  font-size: 14px;
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
+
 
 /*フッター(ページ最下部のcopyrightのパーツ)設定
 ---------------------------------------------------------------------------*/
