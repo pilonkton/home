@@ -200,73 +200,34 @@ h1 {
 /*Galleryページ
 ---------------------------------------------------------------------------*/
 
-/* ギャラリー */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
-  justify-items: center;
+  padding: 20px;
 }
 
-/* サムネ */
-.item {
-  position: relative;
-  width: 70px;
-  height: 70px;
-  overflow: hidden;
+.gallery figure {
+  margin: 0;
+  text-align: center;
 }
 
-.item img {
+.gallery img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  display: block;
-}
-
-/* ホバータイトル */
-.caption {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
+  border-radius: 6px;
   transition: 0.3s;
 }
 
-.item:hover .caption {
-  opacity: 1;
+.gallery img:hover {
+  opacity: 0.8;
 }
 
-/* モーダル */
-.modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.8);
-  display: none;
-  justify-content: center;
-  align-items: center;
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
 }
-
-/* クリックされたとき表示 */
-.modal:target {
-  display: flex;
-}
-
-/* 拡大画像 */
-.modal img {
-  max-width: 90vw;
-  max-height: 90vh;
-}
-
-/* 閉じるエリア */
-.close {
-  position: absolute;
-  inset: 0;
-}
-
 
 /*フッター(ページ最下部のcopyrightのパーツ)設定
 ---------------------------------------------------------------------------*/
