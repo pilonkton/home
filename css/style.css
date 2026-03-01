@@ -340,12 +340,12 @@ a {
 }
 
 .btn-yellow {
-  background-color: #FFCB3D;
+  background-color: #FCD017;
 }
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #e83929; /* 変えたい色 */
+  background-color: #FD1C58; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
