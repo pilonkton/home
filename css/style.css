@@ -20,7 +20,7 @@ body {
 	line-height: 1;		/*行間*/
 	background: #DEDEDB;	/*背景色*/
 
-]
+}
 	/* スマホだけ */
 @media screen and (max-width: 768px) {
   body {
