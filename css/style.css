@@ -59,14 +59,14 @@ a:hover {
 	max-width: 500px;	/*ブロックの最大幅*/
 	margin: 0 auto;  /* 周りの空白 */
 	padding: 0 3%;
-    background: #EAEAEA;  /* ブロック背景 */	
+    background: #ffffff;  /* ブロック背景 */	
 }
 
 /*ヘッダー（ロゴが入った最上段のブロック）
 ---------------------------------------------------------------------------*/
 /*headerブロック*/
 header {
-	text-align: left;	/*内容を中央よせ*/
+	text-align: center;	/*内容を中央よせ*/
 }
 /* ロゴ全体を中央に */
 #logo {
