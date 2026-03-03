@@ -60,7 +60,7 @@ a:hover {
 	margin: 50px auto; /* 周りの空白 */
 	padding: 0 3%;
     background: #ffffff;  /* ブロック背景 */	
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 }
 
 /*ヘッダー（ロゴが入った最上段のブロック）
