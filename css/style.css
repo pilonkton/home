@@ -18,7 +18,7 @@ body {
 	
 	font-size: 17px;	/*文字サイズ*/
 	line-height: 1;		/*行間*/
-	background: #EAEAEA;	/*背景色*/
+	background: #ffffff;	/*背景色*/
 
 }
 	/* スマホだけ */
@@ -347,7 +347,7 @@ a {
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #FD1C58; /* 変えたい色 */
+  background-color: #097ED2; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
