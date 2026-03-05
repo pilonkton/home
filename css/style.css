@@ -370,13 +370,13 @@ a {
 
 .lines {
   display: flex;
-  gap: 4px;
+  gap: 7px;
   width: fit-content;
   margin: 0 auto; /* 横中央 */
 }
 
 .line {
-  width: 40px;
+  width: 60px;
   height: 5px;
 }
 
