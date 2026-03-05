@@ -365,3 +365,19 @@ a {
 .left {
   text-align: left;
 }
+
+/* 三色ライン */
+
+.lines {
+  display: flex;
+  gap: 4px; /* ラインの間隔 */
+}
+
+.line {
+  width: 40px;   /* ラインの長さ */
+  height: 3px;   /* ラインの太さ */
+}
+
+.line1 { background: #262626; }
+.line2 { background: #C1C9D6; }
+.line3 { background: #FF4D4B; }
