@@ -50,7 +50,7 @@ a {
 
 /* ホバー時 */
 a:hover {
-  color: #a012d6;     /* ← 変更 */
+  color: #a01d26;     /* ← 変更 */
 }
 
 /*コンテナー（ホームページを囲む一番外側のブロック）
@@ -353,7 +353,7 @@ a {
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #a012d6; /* 変えたい色 */
+  background-color: #a01d26; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
