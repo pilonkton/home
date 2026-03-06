@@ -336,10 +336,10 @@ a {
 .btn {
   display: inline-block;
   color: #262626;
-  padding: 1px 5px;
+  padding: 0px 5px;
   text-decoration: none;
   margin: 0 5px;
-  border-radius: 3px;   /* ← 追加 */
+  border-radius: 1px;   /* kadomaru? */
 }
 
 /* 色パターン */
@@ -348,7 +348,7 @@ a {
 }
 
 .btn-yellow {
-  background-color: #C1C9D6;
+  background-color: #efefef;
 }
 
 /* ホバー時（2種類共通） */
