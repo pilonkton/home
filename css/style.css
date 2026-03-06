@@ -10,7 +10,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	-webkit-text-size-adjust: none;
-	color: #262626;	/*全体の文字色*/
+	color: #20232a;	/*全体の文字色*/
 	
 	font-family: "m-plus-2c", sans-serif;
     font-weight: 400;
@@ -18,7 +18,7 @@ body {
 	
 	font-size: 17px;	/*文字サイズ*/
 	line-height: 1;		/*行間*/
-	background: #719bad;	/*背景色*/
+	background: #f4f4ef;	/*背景色*/
 
 }
 	/* スマホだけ */
@@ -50,7 +50,7 @@ a {
 
 /* ホバー時 */
 a:hover {
-  color: #e83929;     /* ← 変更 */
+  color: #a012d6;     /* ← 変更 */
 }
 
 /*コンテナー（ホームページを囲む一番外側のブロック）
@@ -116,11 +116,11 @@ header {
     clear: both;
     margin-bottom: 30px;
 
-    color: #262626;              /* 文字色 */
+    color: #20232a;              /* 文字色 */
     background: none;         /* 背景削除 */
 
     padding-bottom: 5px;     /* 線との間隔 */
-    border-bottom: 1px solid #262626;  /* 3px区切り線 */
+    border-bottom: 1px solid #20232a;  /* 3px区切り線 */
 
     font-family: "Droog",
              -apple-system,
@@ -186,7 +186,7 @@ header {
 .divider {
   border: none;              /* デフォルト線を消す */
   height: 1px;               /* 太さ */
-  background-color: #262626; /* 色 */
+  background-color: #20232a; /* 色 */
   margin: 30px 0;            /* 上下余白 */
 }
 
@@ -259,7 +259,7 @@ footer .pr {
 }
 footer p.footer-note {
 	font-size: 12px;
-	color: #262626;
+	color: #20232a;
 	line-height: 1.6;
 	margin-top: 20px;
 	text-align: left;
@@ -327,7 +327,7 @@ a {
   word-break: break-word;
 }
 .link-list li a:hover {
-  color: #e83929;        /* ← ホバー色 */
+  color: #a012d6;        /* ← ホバー色 */
 }
 
 /*リンクボタン===============================*/
@@ -335,7 +335,7 @@ a {
 /* 共通ボタン */
 .btn {
   display: inline-block;
-  color: #262626;
+  color: #20232a;
   padding: 0px 5px;
   text-decoration: none;
   margin: 0 5px;
@@ -344,7 +344,7 @@ a {
 
 /* 色パターン */
 .btn-gray {
-  background-color: #C1C9D6;
+  background-color: #acbebe;
 }
 
 .btn-yellow {
@@ -353,7 +353,7 @@ a {
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #e83929; /* 変えたい色 */
+  background-color: #a012d6; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
