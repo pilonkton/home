@@ -408,25 +408,25 @@ a {
 /* 共通ボタン */
 .btn {
   display: inline-block;
-  color: #262626;
-  padding: 1px 5px;
+  color: #20232a;
+  padding: 0px 5px;
   text-decoration: none;
   margin: 0 5px;
-  border-radius: 3px;   /* ← 追加 */
+  border-radius: 1px;   /* kadomaru? */
 }
 
 /* 色パターン */
 .btn-gray {
-  background-color: #e3e3e3;
+  background-color: #acbebe;
 }
 
 .btn-yellow {
-  background-color: #FCD017;
+  background-color: #efefef;
 }
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #FD1C58; /* 変えたい色 */
+  background-color: #F00040; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
