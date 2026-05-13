@@ -113,14 +113,14 @@ header {
 
 /*コンテンツのh2タグの設定*/
 #contents h2 {
-    clear: both;
+	clear: both;
     margin-bottom: 30px;
 
-    color: #20232a;              /* 文字色 */
-    background: none;         /* 背景削除 */
+    color: #f3f3f2;      /* 白文字 */
+    background: #262626; /* 黒背景 */
 
-    padding-bottom: 2px;     /* 線との間隔 */
-    border-bottom: 1px solid #20232a;  /* 3px区切り線 */
+    padding: 10px 15px;  /* 内側余白 */
+    border-bottom: none; /* 下線削除 */
 
     font-family: "Droog",
              -apple-system,
@@ -130,8 +130,6 @@ header {
              "Yu Gothic",
              Meiryo,
              sans-serif;
-
-	         text-align: center;  /* ← これを追加 */
 }
 
 
