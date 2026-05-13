@@ -344,11 +344,11 @@ a {
 
 /* 色パターン */
 .btn-gray {
-  background-color: #FFD300;
+  background-color: #efefef;
 }
 
 .btn-yellow {
-  background-color: #efefef;
+  background-color: #FFD300;
 }
 
 /* ホバー時（2種類共通） */
