@@ -119,8 +119,9 @@ header {
     color: #f3f3f2;      /* 白文字 */
     background: #262626; /* 黒背景 */
 
-    padding: 10px 15px;  /* 内側余白 */
-    border-bottom: none; /* 下線削除 */
+    padding: 3px 15px;  /* 内側余白 */
+	text-align: center;  /* ← 文字中央 */
+	border-bottom: none; /* 下線削除 */
 
     font-family: "Droog",
              -apple-system,
