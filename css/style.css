@@ -43,7 +43,7 @@ img {
 }
 /* リンク（全般）設定 */
 a {
-  color: #dccb18;
+  color: #FFD300;
   text-decoration: none;
   transition: 0.3s;   /* なめらかに変化させる */
 }
