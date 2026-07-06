@@ -116,16 +116,16 @@ header {
 	clear: both;
     margin-bottom: 30px;
 
-    color: #262626;          /* 文字色 */
-    background: #ffffff;     /* 白背景（背景なしなら none でも可） */
+    color: #424140;                 /* 文字色 */
+    background: #ffffff;            /* 白背景 */
 
     padding: 3px 15px;
     text-align: center;
-    border-bottom: 1px solid #262626;  /* 下線 */
+
+    border: 1px solid #424140;      /* 1pxの枠線 */
 
     font-family: "Fascinate", sans-serif;
 }
-
 
 
 /*コンテンツのh3タグの設定*/
