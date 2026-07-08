@@ -110,22 +110,22 @@ header {
 ---------------------------------------------------------------------------*/
 
 
-
 /*コンテンツのh2タグの設定*/
 #contents h2 {
-	clear: both;
+    clear: both;
     margin-bottom: 30px;
 
-    color: #424140;                 /* 文字色 */
-    background: #ffffff;            /* 白背景 */
+    color: #262626;              /* 黒文字 */
+    background: none;            /* 背景なし */
 
-    padding: 3px 15px;
-    text-align: center;
+    padding-bottom: 5px;         /* 文字と線の間隔 */
+    border-bottom: 1px solid #262626;  /* 下線 */
 
-    border: 1px solid #424140;      /* 1pxの枠線 */
+    text-align: left;          /* 文字位置 */
 
     font-family: "Fascinate", sans-serif;
 }
+
 
 
 /*コンテンツのh3タグの設定*/
