@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/* =========================================================
-   基本設定
-========================================================= */
-
 html {
 	margin: 0;
 	padding: 0;
@@ -12,19 +8,14 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	-webkit-text-size-adjust: none;
 
 	color: #ffffff;
 
 	font-family: "m-plus-2c", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-
 	font-size: 17px;
 	line-height: 1.5;
 
-	/* 背景画像 */
-	background-image: url("images/IMG_9319のコピー.jpg");
+	background-image: url("../images/f_background.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -32,7 +23,6 @@ body {
 
 	min-height: 100vh;
 }
-
 
 /* =========================================================
    リセット
