@@ -353,7 +353,8 @@ footer p.footer-note {
 	}
 
 	#container {
-		max-width: 500px;
+		width: auto;
+		max-width: none;
 		margin: 0 auto;
 		padding: 30px 6% 50px;
 		background: rgba(0, 0, 0, 0.45);
