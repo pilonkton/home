@@ -167,7 +167,7 @@ header {
 
 #contents h2 {
 	clear: both;
-	font-size: 40px;
+	font-size: 35px;
 	margin-bottom: 30px;
 	padding-bottom: 8px;
 
@@ -358,7 +358,7 @@ footer p.footer-note {
 
 		padding: 30px 6% 50px;
 
-		background: rgba(0, 0, 0, 0.45);
+		background: transparent;
 	}
 
 
