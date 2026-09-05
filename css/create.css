@@ -349,14 +349,13 @@ footer p.footer-note {
 @media screen and (max-width: 768px) {
 
 	body {
-		background-image: url("../images/f_background.png");
 		background-attachment: fixed;
 		background-size: cover;
 		background-position: center center;
 	}
 
 	#container {
-		background: rgba(0, 0, 0, 0.45);
+   background: #324362;
 	}
 }
 	/* ロゴ */
