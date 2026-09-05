@@ -218,13 +218,13 @@ header {
 
 	color: #20232a;
 
-	padding: 5px 10px;
+	padding: 0px 5px;
 
 	text-decoration: none;
 
 	margin: 0 5px;
 
-	border-radius: 2px;
+	border-radius: 1px;
 }
 
 .btn-gray {
@@ -250,6 +250,14 @@ header {
 .left {
 	text-align: left;
 }
+
+
+
+
+
+
+
+
 
 
 /* =========================================================
