@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	color: #ffffff;
+	color: #333333;
 
 	font-family: "m-plus-2c", sans-serif;
 	font-size: 17px;
@@ -28,7 +28,7 @@ body {
 	/* スマホだけ */
 @media screen and (max-width: 768px) {
   body {
-    background: #011A27;  /* ← スマホ用の色 */
+    background: #222222;  /* ← スマホ用の色 */
   }
 }
 
@@ -113,9 +113,9 @@ a:hover {
 	margin: 0;
 	padding: 45px 40px 60px;
 
-	background: rgba(0, 0, 0, 0.25);
+	background: #ffffff;
 
-	box-shadow: none;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
 }
 
 
