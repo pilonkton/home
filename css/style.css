@@ -378,14 +378,14 @@ footer p.footer-note {
 	background: #FFFFFF;
 	}
 
-	#logo {
-		padding: 20px 0 20px;
-	}
+#logo {
+	padding: 20px 0 20px;
+	justify-content: center;
+}
 
-	#logo img {
-		width: 60%;
-		justify-content: center;
-	}
+#logo img {
+	width: 60%;
+}
 
 	.divider {
 		margin: 20px 0 30px;
