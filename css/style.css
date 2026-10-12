@@ -359,7 +359,6 @@ footer p.footer-note {
 }
 
 
-
 /* =========================================================
    スマホ
 ========================================================= */
@@ -375,36 +374,32 @@ footer p.footer-note {
 		max-width: none;
 		margin: 0 auto;
 		padding: 30px 6% 50px;
-	background: #FFFFFF;
+		background: #FFFFFF;
 	}
 
-#logo {
-	padding: 20px 0 20px;
-	justify-content: center;
-}
+	#logo {
+		padding: 20px 0 20px;
+		justify-content: center;
+	}
 
-#logo img {
-	width: 60%;
-}
+	#logo img {
+		width: 60%;
+	}
 
 	.divider {
 		margin: 20px 0 30px;
 	}
-}
 
 	/* その他 */
-
 	.ws,
 	.wl {
 		width: 94%;
 	}
 }
 
-
 /* =========================================================
    小さいスマホ
 ========================================================= */
-
 @media screen and (max-width: 400px) {
 
 	#logo img {
