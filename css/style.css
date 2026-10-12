@@ -383,7 +383,8 @@ footer p.footer-note {
 	}
 
 	#logo img {
-		width: 80%;
+		width: 60%;
+		justify-content: center;
 	}
 
 	.divider {
