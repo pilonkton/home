@@ -186,8 +186,8 @@ header {
 #contents h2 {
 	clear: both;
 	font-size: 30px;
-	margin-bottom: 10px;
-	padding-bottom: 8px;
+	margin-bottom: 1px;
+	padding-bottom: 2px;
 
 	color: #efefef;
 	background: none;
