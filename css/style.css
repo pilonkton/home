@@ -90,7 +90,7 @@ iframe {
 
 a {
 	color: #FFD300;
-	text-decoration: none;
+	text-decoration: underline;
 	transition: 0.3s;
 
 	overflow-wrap: break-word;
