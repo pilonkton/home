@@ -89,7 +89,7 @@ iframe {
 ========================================================= */
 
 a {
-	color: #747CAC;
+	color: #FFD300;
 	text-decoration: none;
 	transition: 0.3s;
 
@@ -189,7 +189,7 @@ header {
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 
-	color: #A2B3CB;
+	color: #efefef;
 	background: none;
 	border-bottom: none;
 	text-align: left;
