@@ -13,7 +13,7 @@ body {
 
 	font-family: "m-plus-2c", sans-serif;
 	font-size: 17px;
-	line-height: 1.2;
+	line-height: 1.3;
 
 	background-image: url("../images/IMG_9319.webp");
 	background-position: center center;
@@ -186,10 +186,10 @@ header {
 #contents h2 {
 	clear: both;
 	font-size: 30px;
-	margin-bottom: 1px;
-	padding-bottom: 2px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 
-	color: #646F7F;
+	color: #8698B3;
 	background: none;
 	border-bottom: none;
 	text-align: left;
