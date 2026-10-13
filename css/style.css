@@ -289,13 +289,13 @@ footer {
 
 	padding: 50px 0 20px;
 
-	color: #ffffff;
+	color: #646F7F;
 }
 
 footer a {
 	text-decoration: none;
 	border: none;
-	color: #ffffff;
+	color: #646F7F;
 }
 
 footer .pr {
@@ -304,7 +304,7 @@ footer .pr {
 
 footer p.footer-note {
 	font-size: 12px;
-	color: #ffffff;
+	color: #646F7F;
 	line-height: 1.6;
 	margin-top: 20px;
 	text-align: left;
